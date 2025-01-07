@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Week1_SpringAI_TeacherAssistantChatbot_ChatMemory_FunctionCalling
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+    retry:
+      max-attempts: 1
