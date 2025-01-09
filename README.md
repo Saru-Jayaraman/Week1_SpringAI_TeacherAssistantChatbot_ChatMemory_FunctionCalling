@@ -27,7 +27,7 @@ Task is to create AI TEACHER ASSISTANT CHATBOT App with ChatMemory & FunctionCal
 4. Adding System Information, Sending request to and Receiving response from Open AI chat model is configured inside the Spring boot application using the following techniques:
     - **`Prompt:`** Predefined Class present inside org.springframework.ai.chat framework. It is used to create customized prompts having User query, System instruction and LLM parameters(OpenAiChatOptions).
     - **`OpenAiChatModel:`** It has pre-built methods to connect with Open AI Model.
-    - Interact with AI functionalities using APIs like AI Model API and Advisors API.
+    - Interact with AI functionalities using APIs like AI Model API.
 5. Following API endpoints are used in this application:
    1. API endpoint to interact with Open AI model having Customized prompt:
       - **`Input:`** QUERY is passed as **`String`** through GET method.
